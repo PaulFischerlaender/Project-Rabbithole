@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name 6Pack-rescue)(type Legacy)(uri C:/Users/Paul/Documents/GitHub/Kepler65-PCB/6Pack-rescue.lib)(options "")(descr ""))
+  (lib (name keyboard-cache)(type Legacy)(uri C:/Users/Paul/Documents/GitHub/Kepler65-PCB/keyboard-cache.lib)(options "")(descr ""))
+  (lib (name Type-C)(type Legacy)(uri C:/Users/Paul/Documents/GitHub/Kepler65-PCB/Type-C.pretty/Type-C.lib)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type Legacy)(uri "C:/Users/Paul/Documents/GitHub/Macropad-PCB/macropad-pcb/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+)
