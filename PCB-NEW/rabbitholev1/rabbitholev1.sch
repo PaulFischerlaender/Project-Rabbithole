@@ -1889,45 +1889,45 @@ F 3 "" H 1150 2950 50  0001 C CNN
 	1    1150 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 2600 2700 2    50   Input ~ 0
-col0
-Text GLabel 2600 2600 2    50   Input ~ 0
-col1
-Text GLabel 2600 2500 2    50   Input ~ 0
-col2
-Text GLabel 2600 2900 2    50   Input ~ 0
-col3
-Text GLabel 2600 2800 2    50   Input ~ 0
-col4
-Text GLabel 2600 1700 2    50   Input ~ 0
-col8
-Text GLabel 2600 1800 2    50   Input ~ 0
-col9
-Text GLabel 2600 2100 2    50   Input ~ 0
-col10
-Text GLabel 2600 2200 2    50   Input ~ 0
-col11
-Text GLabel 2600 4100 2    50   Input ~ 0
-col12
 Text GLabel 2600 4000 2    50   Input ~ 0
-col13
-Text GLabel 2600 1200 2    50   Input ~ 0
-col14
-Text GLabel 2600 3000 2    50   Input ~ 0
-col5
-Text GLabel 2600 3100 2    50   Input ~ 0
-col6
-Text GLabel 2600 3400 2    50   Input ~ 0
-row0
-Text GLabel 2600 3600 2    50   Input ~ 0
-row1
-Text GLabel 2600 3900 2    50   Input ~ 0
-row2
-Text GLabel 2600 3700 2    50   Input ~ 0
-row3
-Text GLabel 2600 3800 2    50   Input ~ 0
-row4
+col0
+Text GLabel 2600 4100 2    50   Input ~ 0
+col1
+Text GLabel 2600 2200 2    50   Input ~ 0
+col2
+Text GLabel 2600 2100 2    50   Input ~ 0
+col3
 Text GLabel 2600 1600 2    50   Input ~ 0
+col4
+Text GLabel 2600 2900 2    50   Input ~ 0
+col8
+Text GLabel 2600 2700 2    50   Input ~ 0
+col9
+Text GLabel 2600 2500 2    50   Input ~ 0
+col10
+Text GLabel 2600 1200 2    50   Input ~ 0
+col11
+Text GLabel 2600 2600 2    50   Input ~ 0
+col12
+Text GLabel 2600 1700 2    50   Input ~ 0
+col13
+Text GLabel 2600 1800 2    50   Input ~ 0
+col14
+Text GLabel 2600 3100 2    50   Input ~ 0
+col5
+Text GLabel 2600 3000 2    50   Input ~ 0
+col6
+Text GLabel 2600 3700 2    50   Input ~ 0
+row0
+Text GLabel 2600 3900 2    50   Input ~ 0
+row1
+Text GLabel 2600 3800 2    50   Input ~ 0
+row2
+Text GLabel 2600 3600 2    50   Input ~ 0
+row3
+Text GLabel 2600 3400 2    50   Input ~ 0
+row4
+Text GLabel 2600 2800 2    50   Input ~ 0
 col7
 Wire Wire Line
 	2100 900  2000 900 
@@ -2449,21 +2449,13 @@ Wire Wire Line
 Wire Wire Line
 	7550 3600 7550 3500
 Wire Wire Line
-	7550 3500 7850 3500
-Wire Wire Line
 	7850 3600 7850 3500
-Connection ~ 7850 3500
-Wire Wire Line
-	7850 3500 8250 3500
 Wire Wire Line
 	8250 3600 8250 3500
-Connection ~ 8250 3500
 Wire Wire Line
 	10250 2300 10250 1650
 Wire Wire Line
 	8250 3500 8450 3500
-Text GLabel 8450 3500 2    50   Input ~ 0
-col12
 Wire Wire Line
 	10700 2950 10700 1650
 Wire Wire Line
@@ -2520,4 +2512,10 @@ F 3 "~" H 5500 4950 50  0001 C CNN
 	1    5500 4950
 	1    0    0    -1  
 $EndComp
+Text GLabel 7550 3500 0    50   Input ~ 0
+col12
+Text GLabel 7850 3500 0    50   Input ~ 0
+col13
+Text GLabel 8450 3500 2    50   Input ~ 0
+col14
 $EndSCHEMATC
